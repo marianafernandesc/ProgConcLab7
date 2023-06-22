@@ -34,8 +34,8 @@ class Variavel():
         self.erro = (abs(valor_pi - self.piT))/(valor_pi)
         if self.erro > erromaximo:
             print("Erro relativo superior ao toleravel")
-            print(self.erro)
-            print(erro2)
+            print("erro relativo = ", self.erro)
+            print("pi constante - pi obtido: ", erro2)
         #nao sei o motivo da validacao estar dando errado
 
 #classe da thread
